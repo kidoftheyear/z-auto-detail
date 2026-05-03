@@ -2,19 +2,9 @@ import { motion } from 'motion/react';
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=2600&auto=format&fit=crop",
-    title: "Elite Ceramic Coating",
-    category: "Protection"
-  },
-  {
-    url: "/images/bmw-foam-wash.jpg",
+    url: "/images/porsche-wash.jpg",
     title: "Signature Foam Wash",
     category: "Exterior"
-  },
-  {
-    url: "/images/porsche-wash.jpg",
-    title: "Precision Cleaning",
-    category: "Restoration"
   },
   {
     url: "/images/polishing-process.jpg",
@@ -22,28 +12,8 @@ const images = [
     category: "Correction"
   },
   {
-    url: "/images/car-side-reflection.jpg",
-    title: "Mirror Reflection",
-    category: "Protection"
-  },
-  {
-    url: "/images/car-roof-gloss.jpg",
-    title: "Signature Finish",
-    category: "Showroom"
-  },
-  {
-    url: "https://images.unsplash.com/photo-1621905252507-b35222cdadff?q=80&w=2600&auto=format&fit=crop",
-    title: "Interior Restoration",
-    category: "Interior"
-  },
-  {
     url: "/images/mercedes-interior.jpg",
-    title: "Interior Detailing",
-    category: "Interior"
-  },
-  {
-    url: "/images/audi-interior.jpg",
-    title: "Premium Restoration",
+    title: "Interior Restoration",
     category: "Interior"
   }
 ];
@@ -57,15 +27,15 @@ export default function Gallery() {
           <h2 className="font-display text-4xl md:text-5xl font-bold">PORTFOLIO OF <span className="text-brand-blue">PRECISION</span></h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {images.map((img, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.05 }}
-              className="group relative aspect-square rounded-[32px] overflow-hidden border border-white/5 bg-white/5"
+              transition={{ delay: i * 0.1 }}
+              className="group relative aspect-[4/5] rounded-[32px] overflow-hidden border border-white/5 bg-white/5"
             >
               <img 
                 src={img.url} 
