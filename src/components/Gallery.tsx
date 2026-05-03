@@ -2,19 +2,19 @@ import { motion } from 'motion/react';
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=2600&auto=format&fit=crop",
+    url: "/images/porsche-wash.jpg",
     title: "Signature Foam Wash",
     category: "Exterior"
   },
   {
-    url: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2600&auto=format&fit=crop",
-    title: "Ceramic Application",
-    category: "Protection"
+    url: "/images/polishing-process.jpg",
+    title: "Paint Correction",
+    category: "Correction"
   },
   {
-    url: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2600&auto=format&fit=crop",
+    url: "/images/car-gloss.png",
     title: "Mirror Reflection",
-    category: "Restoration"
+    category: "Protection"
   },
   {
     url: "https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?q=80&w=2600&auto=format&fit=crop",

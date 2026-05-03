@@ -63,7 +63,7 @@ export default function ComparisonSlider() {
             {/* After Image (Background) */}
             <div className="absolute inset-0">
                <img 
-                 src="https://images.unsplash.com/photo-1599256872237-5dcc0fbe9638?q=80&w=2600&auto=format&fit=crop" 
+                 src="/images/polishing-process.jpg" 
                  alt="After Detailing"
                  className="w-full h-full object-cover"
                />
@@ -76,7 +76,7 @@ export default function ComparisonSlider() {
               style={{ clipPath: `inset(0 ${100 - percent}% 0 0)` }}
             >
               <img 
-                 src="https://images.unsplash.com/photo-1552933078-433e8b4618e7?q=80&w=2600&auto=format&fit=crop" 
+                 src="/images/porsche-wash.jpg" 
                  alt="Before Detailing"
                  className="w-full h-full object-cover grayscale-[0.3]"
               />
