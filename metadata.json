@@ -1,0 +1,12 @@
+{
+  "name": "Z Auto Details",
+  "description": "High-conversion mobile detailing landing page for Chandler, AZ service provider specializing in ceramic coatings and interior restoration.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Mobile Detailing",
+    "Ceramic Coatings",
+    "Paint Correction"
+  ]
+}
