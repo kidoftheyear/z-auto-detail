@@ -37,14 +37,14 @@ const images = [
     category: "Interior"
   },
   {
-    url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2600&auto=format&fit=crop",
-    title: "Showroom Transformation",
-    category: "Showroom"
+    url: "/images/mercedes-interior.jpg",
+    title: "Interior Detailing",
+    category: "Interior"
   },
   {
-    url: "https://images.unsplash.com/photo-1599256872237-5dcc0fbe9638?q=80&w=2600&auto=format&fit=crop",
-    title: "Elite Nano Protection",
-    category: "Protection"
+    url: "/images/audi-interior.jpg",
+    title: "Premium Restoration",
+    category: "Interior"
   }
 ];
 
