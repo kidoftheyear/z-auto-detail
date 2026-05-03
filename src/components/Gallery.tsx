@@ -2,9 +2,19 @@ import { motion } from 'motion/react';
 
 const images = [
   {
-    url: "/images/porsche-wash.jpg",
+    url: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=2600&auto=format&fit=crop",
+    title: "Elite Ceramic Coating",
+    category: "Protection"
+  },
+  {
+    url: "/images/bmw-foam-wash.jpg",
     title: "Signature Foam Wash",
     category: "Exterior"
+  },
+  {
+    url: "/images/porsche-wash.jpg",
+    title: "Precision Cleaning",
+    category: "Restoration"
   },
   {
     url: "/images/polishing-process.jpg",
@@ -12,14 +22,14 @@ const images = [
     category: "Correction"
   },
   {
-    url: "/images/car-gloss.png",
+    url: "/images/car-side-reflection.jpg",
     title: "Mirror Reflection",
     category: "Protection"
   },
   {
-    url: "https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?q=80&w=2600&auto=format&fit=crop",
-    title: "Precision Polishing",
-    category: "Paint Correction"
+    url: "/images/car-roof-gloss.jpg",
+    title: "Signature Finish",
+    category: "Showroom"
   },
   {
     url: "https://images.unsplash.com/photo-1621905252507-b35222cdadff?q=80&w=2600&auto=format&fit=crop",
@@ -30,16 +40,6 @@ const images = [
     url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2600&auto=format&fit=crop",
     title: "Showroom Transformation",
     category: "Showroom"
-  },
-  {
-    url: "https://images.unsplash.com/photo-1599256872237-5dcc0fbe9638?q=80&w=2600&auto=format&fit=crop",
-    title: "Elite Nano Protection",
-    category: "Protection"
-  },
-  {
-    url: "https://images.unsplash.com/photo-1552933078-433e8b4618e7?q=80&w=2600&auto=format&fit=crop",
-    title: "Pre-Detail Decon",
-    category: "Preparation"
   }
 ];
 
